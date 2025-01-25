@@ -1,0 +1,18 @@
+Ao escrever ! e apertar [enter] em um arquivo html é possível criar toda a estrutura
+
+Como abrir servidor(radmin):
+entrar na pasta dos arquivos no cmd
+py -m http.server 8000 --bind 26.156.254.201
+entrar em http://26.156.254.201:8000/
+
+tem como usar classes. Exemplo:
+No HTML:
+<strong class="titulo-destaque">C, C++ e C#.</strong>
+No CSS:
+.titulo-destaque {
+    color: aqua;
+}
+
+.div$*4 cria 4 divs
+
+ctrl + k + c deixa a linha comentada

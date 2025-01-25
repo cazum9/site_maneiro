@@ -1,0 +1,134 @@
+:root{
+    --cor-texto: #fc0fc0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: darkblue;
+    color: var(--cor-texto);
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 18px;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a {
+  color: darkgoldenrod;  
+}
+
+span{
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 0.5px;
+}
+
+.apresentacao{
+    padding: 5.3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+}
+
+.titulo-destaque {
+    color: aqua;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__navegacao{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+}
+
+.apresentacao__links__navegacao:hover{
+    background-color: darkred;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+}
+
+.rodape{
+    padding: 25px;
+    color: var(--cor-texto);
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__links__navegacao{
+        width: 70%;
+    }
+}
